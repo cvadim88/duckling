@@ -70,7 +70,7 @@ ruleNewYearsDay :: Rule
 ruleNewYearsDay = Rule
   { name = "new year's day"
   , pattern =
-    [ regex "(siua de )? an(ul)? nou"
+    [ regex "(ziua de )? an(ul)? nou"
     ]
   , prod = \_ -> tt $ monthDay 1 1
   }
